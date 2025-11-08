@@ -1,0 +1,29 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Jupyter и временные файлы
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Логи и результаты экспериментов
+mlruns/
+*.log
+
+# Данные
+data/raw/
+data/processed/
+data/text/predicted/
+
+# Модельные веса (если будут)
+*.pt
+*.pth
+*.onnx
+
+# Системные штуки
+.DS_Store
+Thumbs.db

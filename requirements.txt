@@ -1,0 +1,6 @@
+mlflow
+dvc
+torch
+openai-whisper
+TTS
+pyyaml

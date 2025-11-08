@@ -1,0 +1,11 @@
+asr:
+  model: "openai/whisper-small"
+  language: "ru"
+
+tts:
+  model: "coqui/XTTS-v2"
+  speaker_wav: "data/raw/clean_sample.wav"
+
+general:
+  experiment_name: "SpeechCorrection"
+  device: "cuda"

@@ -1,0 +1,19 @@
+stages:
+  recognize:
+    cmd: python src/asr.py
+    deps:
+      - src/asr.py
+      - data/raw/defective.wav
+      - params.yaml
+    outs:
+      - data/text/transcript.txt
+
+  synthesize:
+    cmd: python src/tts.py
+    deps:
+      - src/tts.py
+      - data/text/transcript.txt
+      - data/raw/clean_sample.wav
+      - params.yaml
+    outs:
+      - data/processed/restored.wav
