@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/772322846451787463/c0d6386f70714a53b0e8fcf9a0b63e6f/artifacts
+end_time: 1762599714826
+entry_point_name: ''
+experiment_id: '772322846451787463'
+lifecycle_stage: active
+run_id: c0d6386f70714a53b0e8fcf9a0b63e6f
+run_name: spiffy-mule-346
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762599714700
+status: 3
+tags: []
+user_id: mosen
